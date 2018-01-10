@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1998b46a5ce0978c1e20f30ba92ac49d",
-    "content-hash": "b898d41f771671ec6c862020bfcb6ead",
+    "content-hash": "864b22cfba392bbf90098b7a49c38a0f",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -144,7 +143,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2017-08-22 10:13:04"
+            "time": "2017-08-22T10:13:04+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -191,7 +190,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2017-06-03 02:28:16"
+            "time": "2017-06-03T02:28:16+00:00"
         },
         {
             "name": "omnilight/yii2-sypexgeo",
@@ -230,7 +229,7 @@
                 "sypexgeo",
                 "yii2"
             ],
-            "time": "2014-12-02 13:55:50"
+            "time": "2014-12-02T13:55:50+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -330,7 +329,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2018-01-09 22:51:41"
+            "time": "2018-01-09T22:51:41+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -380,7 +379,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2017-08-01 14:22:25"
+            "time": "2017-08-01T14:22:25+00:00"
         }
     ],
     "packages-dev": [],
@@ -390,7 +389,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0.0"
+        "php": ">=5.4.0"
     },
     "platform-dev": []
 }

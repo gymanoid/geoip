@@ -10,7 +10,7 @@
 ------------
 
 ~~~
-git clone https://github.com/gymanoid/geoip.git
+git clone https://github.com/gymanoid/geoip.git .
 php composer.phar install
 php yii update/geoip-data
 ~~~
