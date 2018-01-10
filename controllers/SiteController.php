@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use yii\web\Controller;
 use yii\base\DynamicModel;
+use app\decorators\Decorator;
 
 class SiteController extends Controller
 {
@@ -56,7 +57,8 @@ class SiteController extends Controller
             $response['errors'] = $model->getErrors();
         } else {
             $city = Yii::$app->cache->getOrSet('ip_' . $model->ip, function () use ($model) {
-                return Yii::$app->sypexGeo->getCity($model->ip);
+                $city = Yii::$app->sypexGeo->getCityFull($model->ip);
+                return ($city === false) ? [] : Decorator::sypexResponseEn($city);
             }, 1800);
 
             if (empty($city)) {
